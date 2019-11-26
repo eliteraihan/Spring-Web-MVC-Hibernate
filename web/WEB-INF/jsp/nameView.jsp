@@ -16,7 +16,7 @@ selanjutnya di:  -->
     </head>
     <body>
         <h1>Data DVD</h1>
-        <spring:nested.Path path="dvd">
+        <spring:nestedPath path="dvd">
             <form action="" method="post">
                 <table>
                     <tr>
@@ -28,8 +28,7 @@ selanjutnya di:  -->
                     </tr>
                     <tr>
                         <td>Nama DVD</td><td>:</td><td>
-                            <spring:bind path="nama
-                                         Dvd">
+                            <spring:bind path="namaDvd">
                                 <input type="text" name="${status.expression}" value="${status.value}">
                             </spring:bind>
                         </td>
@@ -48,8 +47,12 @@ selanjutnya di:  -->
                             </spring:bind>
                         </td>
                     </tr>
-                    
-<!-- your code here... lanjutin -->
 
-</body>
+                    <tr><tdxinput type="submit" value="Simpan"></td></tr>
+        
+                </table>
+            </form>
+        </spring:nestedPath>
+
+    </body>
 </html>

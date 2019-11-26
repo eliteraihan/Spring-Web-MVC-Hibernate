@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.hibernate.Session;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
-import elite.util.HibernateUtil;
+import elite.util.HibernateUtil;    // elite is my package
 
 /**
  *
